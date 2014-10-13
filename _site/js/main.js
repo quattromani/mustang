@@ -26,3 +26,9 @@ $('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
 
 // Make main an element where note supported
 document.createElement('main');
+
+
+$('.your-class').slick({
+  slidesToShow: 3,
+  slidesToScroll: 3
+});

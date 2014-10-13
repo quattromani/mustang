@@ -2806,6 +2806,20 @@ samp {
   float: right;
   right: 0; }
 
+.push {
+  float: right; }
+
+.pull {
+  float: left;
+  margin-left: 0; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 .fs10 {
   font-size: 10px;
   font-size: 1rem; }
@@ -3784,6 +3798,7 @@ header {
   position: relative; }
   header.banner {
     height: 100%;
+    background-image: url("/media/images/banner.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover;

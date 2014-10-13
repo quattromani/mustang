@@ -6,6 +6,7 @@
       function downloadJSAtOnload() {
         var element = document.createElement("script");
         element.src = "{{ site.baseurl }}/js/build/production.min.js";
+        element.src = "{{ site.baseurl }}/js/vendor/slick.min.js";
         document.body.appendChild(element);
       }
       if (window.addEventListener)
