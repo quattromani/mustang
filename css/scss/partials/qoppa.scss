@@ -1,0 +1,24 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Qoppa -- Version: 0.0.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+section {
+  @include row;
+}
+
+.callout {
+  @include bp(bp-small) {
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 1px solid $color-light-grey;
+
+    &:first-child {
+      @include margin;
+      @include padding;
+      border: 0;
+    }
+  }
+}

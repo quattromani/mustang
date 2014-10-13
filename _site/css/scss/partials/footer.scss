@@ -1,0 +1,35 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Footer -- Version: 0.0.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    footer {
+      @include padding(2em, 0);
+      background-color: $bg-text;
+      color: $color-white;
+
+      .tel {
+        color: $color-white;
+
+        &:hover {
+          color: $color-white;
+          box-shadow: 0 2px 0 0 $color-white;
+        }
+      }
+
+      hr {
+        @extend %clearfix !optional;
+        @include margin($margin, 0);
+        border: 0;
+        border-top: 1px solid lighten($bg-text, 10%);
+      }
+    }
+
+    .sub-footer {
+      @extend footer;
+      border-top: 1px solid lighten($bg-text, 10%);
+      background-color: $bg-text;
+      color: $color-white;
+    }

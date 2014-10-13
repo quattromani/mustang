@@ -1,0 +1,35 @@
+# Site settings
+name: 1966 Mustang
+version: 0.0.1
+author: Max Quattromani
+email: max@maxquattromani.com
+description: ""
+baseurl: ""
+url: "http://1966mustang.us"
+author: "Max Quattromani"
+twitter_username: maxquattromani
+github_username:  quattromani
+
+footer: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: true
+
+exclude: ['node_modules', 'scss', 'DAM']
+
+google_analytics: true
+google_analytics_id: UA-50387096-7
+jquery_version: 1.9.0
+
+sitemap:
+  file: "/sitemap.xml"
+  exclude:
+      - "/atom.xml"
+      - "/feed.xml"
+      - "/feed/index.xml"
+  include_posts:
+      - "/index.html"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"

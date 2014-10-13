@@ -1,0 +1,42 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Nav -- Version: 0.4.0 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    nav {
+      position: fixed;
+      width: 100%;
+      background-color: $color-primary-red;
+      z-index: 9991;
+
+      .container {
+        display: table;
+        width: 100%;
+      }
+
+      ul {
+        display: table-row;
+        width: 100%;
+
+        li {
+          display: table-cell;
+          width: (100% / $nav-items);
+          @include padding(($padding / 2), 0);
+        }
+      }
+
+      h4 {
+        @include margin;
+      }
+
+      a {
+        color: $color-white;
+
+        &:hover {
+          color: $color-white;
+          box-shadow: 0 2px 0 0 $color-white;
+        }
+      }
+    }
