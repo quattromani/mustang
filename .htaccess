@@ -27,8 +27,10 @@
 
 # By default allow cross-origin access to web fonts.
 
-<FilesMatch ".(eot|ttf|otf|woff)">
-  Header set Access-Control-Allow-Origin "*"
+<FilesMatch ".(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
 </FilesMatch>
 
 # ------------------------------------------------------------------------------
