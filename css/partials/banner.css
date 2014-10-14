@@ -34,7 +34,16 @@ header.banner .logo h1 {
   padding-bottom: 1em;
   padding-left: 1em;
   border: 4px solid currentColor;
-  color: #fff;
+  background: rgba(0, 0, 0, 0.25);
+}
+.ie header.banner .logo h1 {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000,endColorstr=#40000000);
+  zoom: 1;
+}
+header.banner .logo h1 a {
+  color: #f2f2f2;
 }
 @media (max-width: 62em) {
   header.banner .logo h1 {

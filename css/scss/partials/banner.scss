@@ -32,7 +32,11 @@
             @include inline-block;
             @include padding(1em);
             border: 4px solid currentColor;
-            color: $color-white;
+            @include rgba($color-black,.25);
+
+            a {
+              color: $color-off-white;
+            }
 
             @include bp(bp-medium) {
               border: 0;
