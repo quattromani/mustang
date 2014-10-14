@@ -3,42 +3,47 @@
 
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.clear {
-  clear: both;
-}
+    .clear {
+      clear: both;
+    }
 
-.relative {
-  position: relative;
-}
+    .relative {
+      position: relative;
+    }
 
-.center {
-  @include center;
-}
+    .fixed {
+      position: fixed !important;
+      top: 0;
+    }
 
-.left {
-  float: left;
-  left: 0;
-}
+    .center {
+      @include center;
+    }
 
-.right {
-  float: right;
-  right: 0;
-}
+    .left {
+      float: left;
+      left: 0;
+    }
 
-.push {
-  float: right;
-}
+    .right {
+      float: right;
+      right: 0;
+    }
 
-.pull {
-  float: left;
-  margin-left: 0;
-}
+    .push {
+      float: right;
+    }
 
-.vertical-align {
-  @include vertical-align;
-}
+    .pull {
+      float: left;
+      margin-left: 0;
+    }
+
+    .vertical-align {
+      @include vertical-align;
+    }
 
 // Font Size Helpers
 @for $i from 10 through 60 {

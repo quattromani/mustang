@@ -2,6 +2,7 @@
     Nav -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 nav {
+  position: relative;
   width: 100%;
   background-color: #415d69;
   z-index: 9991;
