@@ -42,8 +42,8 @@ section:only-child {
 }
 
 .buy {
-  position: fixed;
-  top: 4em;
+  position: absolute;
+  top: .5em;
   right: 1em;
   z-index: 9999;
 }

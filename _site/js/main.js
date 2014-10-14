@@ -30,7 +30,7 @@ document.createElement('main');
 if($(window).width() > mediumBreakPoint){
   $('.gallery').slick({
     lazyLoad: 'ondemand',
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1
   });
 }
