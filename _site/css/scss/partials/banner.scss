@@ -33,6 +33,7 @@
             @include padding(1em);
             border: 4px solid currentColor;
             @include rgba($color-black,.25);
+            color: $color-off-white;
 
             a {
               color: $color-off-white;

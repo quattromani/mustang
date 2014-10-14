@@ -3829,7 +3829,8 @@ header {
         padding-bottom: 1em;
         padding-left: 1em;
         border: 4px solid currentColor;
-        background: rgba(0, 0, 0, 0.25); }
+        background: rgba(0, 0, 0, 0.25);
+        color: #f2f2f2; }
         .ie header.banner .logo h1 {
           background: transparent;
           -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000)";
