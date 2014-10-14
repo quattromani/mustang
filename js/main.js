@@ -26,19 +26,3 @@ $('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
 
 // Make main an element where note supported
 document.createElement('main');
-
-if($(window).width() > mediumBreakPoint){
-  $('.gallery').slick({
-    lazyLoad: 'ondemand',
-    slidesToShow: 3,
-    slidesToScroll: 1
-  });
-}
-
-if($(window).width() < mediumBreakPoint){
-  $('.gallery').slick({
-    lazyLoad: 'ondemand',
-    slidesToShow: 1,
-    slidesToScroll: 1
-  });
-}

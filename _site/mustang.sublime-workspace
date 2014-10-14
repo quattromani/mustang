@@ -89,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/mustang/js/slick.js",
 		"/Users/Q/Sites/mustang/_includes/nav.html",
 		"/Users/Q/Sites/mustang/css/scss/partials/mustang.scss",
 		"/Users/Q/Sites/mustang/js/main.js",
@@ -215,8 +216,7 @@
 		"/Users/Q/Sites/scaffold/_includes/prototype.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
-		"/Users/Q/Sites/scaffold/web-components/elements/compliance-card/index.html"
+		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss"
 	],
 	"find":
 	{
@@ -237,6 +237,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"/>",
 			"></",
 			"path",
 			"arrow",
@@ -363,8 +364,7 @@
 			"transform",
 			".3",
 			"q",
-			"a {",
-			"transf"
+			"a {"
 		],
 		"highlight": true,
 		"in_selection": false,
