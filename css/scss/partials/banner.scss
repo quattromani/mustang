@@ -42,6 +42,10 @@
             @include bp(bp-medium) {
               border: 0;
             }
+
+            @include bp(bp-small) {
+              @include rgba($color-black, 0);
+            }
           }
           @include bp(bp-small) {
             position: relative;

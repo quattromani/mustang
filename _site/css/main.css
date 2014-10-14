@@ -3841,6 +3841,14 @@ header {
         @media (max-width: 62em) {
           header.banner .logo h1 {
             border: 0; } }
+        @media (max-width: 40em) {
+          header.banner .logo h1 {
+            background: transparent; }
+            .ie header.banner .logo h1 {
+              background: transparent;
+              -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#00000000);
+              zoom: 1; } }
       @media (max-width: 40em) {
         header.banner .logo {
           position: relative;
@@ -5023,13 +5031,16 @@ section {
   font-family: "FontAwesome";
   font-size: 20px;
   line-height: 1;
-  color: #fff;
+  color: #454545;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  @media (max-width: 40em) {
+    .slick-prev:before, .slick-next:before {
+      color: #fff; } }
 
 .slick-prev {
-  left: 0; }
+  left: -25px; }
   [dir="rtl"] .slick-prev {
     left: auto;
     right: -25px; }
@@ -5037,9 +5048,12 @@ section {
     content: ""; }
     [dir="rtl"] .slick-prev:before {
       content: ""; }
+  @media (max-width: 40em) {
+    .slick-prev {
+      left: 0; } }
 
 .slick-next {
-  right: 0; }
+  right: -25px; }
   [dir="rtl"] .slick-next {
     left: -25px;
     right: auto; }
@@ -5047,6 +5061,9 @@ section {
     content: ""; }
     [dir="rtl"] .slick-next:before {
       content: ""; }
+  @media (max-width: 40em) {
+    .slick-next {
+      right: 0; } }
 
 /* Dots */
 .slick-slider {

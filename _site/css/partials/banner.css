@@ -52,6 +52,17 @@ header.banner .logo h1 a {
   }
 }
 @media (max-width: 40em) {
+  header.banner .logo h1 {
+    background: transparent;
+  }
+  .ie header.banner .logo h1 {
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#00000000);
+    zoom: 1;
+  }
+}
+@media (max-width: 40em) {
   header.banner .logo {
     position: relative;
     top: 0;

@@ -7,7 +7,7 @@
 
 $slick-font-family: $fontawesome !default;
 $slick-loader-path: "./" !default;
-$slick-arrow-color: $color-white !default;
+$slick-arrow-color: $text !default;
 $slick-dot-color: black !default;
 $slick-dot-color-active: $slick-dot-color !default;
 $slick-prev-character: '\f053' !default;
@@ -179,10 +179,12 @@ $opacity-not-active: .25;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-
+    @include bp(bp-small) {
+      color: $color-white
+    }
 }
 .slick-prev {
-    left: 0;
+    left: -25px;
     [dir="rtl"] & {
         left:  auto;
         right: -25px;
@@ -193,9 +195,13 @@ $opacity-not-active: .25;
             content: $slick-next-character;
         }
     }
+
+    @include bp(bp-small) {
+      left: 0;
+    }
 }
 .slick-next {
-    right: 0;
+    right: -25px;
     [dir="rtl"] & {
         left:  -25px;
         right: auto;
@@ -205,6 +211,9 @@ $opacity-not-active: .25;
         [dir="rtl"] & {
             content: $slick-prev-character;
         }
+    }
+    @include bp(bp-small) {
+      right: 0;
     }
 }
 

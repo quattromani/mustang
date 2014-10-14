@@ -132,14 +132,19 @@
   font-family: "FontAwesome";
   font-size: 20px;
   line-height: 1;
-  color: #fff;
+  color: #454545;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media (max-width: 40em) {
+  .slick-prev:before, .slick-next:before {
+    color: #fff;
+  }
+}
 
 .slick-prev {
-  left: 0;
+  left: -25px;
 }
 [dir="rtl"] .slick-prev {
   left: auto;
@@ -151,9 +156,14 @@
 [dir="rtl"] .slick-prev:before {
   content: "";
 }
+@media (max-width: 40em) {
+  .slick-prev {
+    left: 0;
+  }
+}
 
 .slick-next {
-  right: 0;
+  right: -25px;
 }
 [dir="rtl"] .slick-next {
   left: -25px;
@@ -164,6 +174,11 @@
 }
 [dir="rtl"] .slick-next:before {
   content: "";
+}
+@media (max-width: 40em) {
+  .slick-next {
+    right: 0;
+  }
 }
 
 /* Dots */
