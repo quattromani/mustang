@@ -41,10 +41,10 @@
 }
 
 .message-warning {
-  color: #ef272d;
+  color: #a90009;
 }
 .message-warning:before {
-  background: #f68689;
+  background: #ff101d;
   content: "3";
 }
 
@@ -58,14 +58,14 @@
 }
 .info-box {
   border-left: .3em solid currentColor;
-  background: #bae7ff;
-  color: #0078ba;
+  background: #abc1cb;
+  color: #2d414a;
 }
 
 .error-box {
   border-left: .3em solid currentColor;
-  background: #fde5e6;
-  color: #d31016;
+  background: #ff767d;
+  color: #760006;
 }
 
 .valid-box {

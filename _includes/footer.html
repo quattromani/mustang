@@ -1,7 +1,18 @@
     <!-- Footer Component -->
     <footer role="contentinfo">
       <div class="container">
-        <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> {{ site.footer }}</span>
+        <header>
+          <h4>Make an Offer or Ask a Question</h4>
+        </header>
+
+        <hr>
+
+        <div id="contact">
+          {% include contact.html %}
+        </div>
+        <div class="row">
+          <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> {{ site.footer }}</span>
+        </div>
       </div>
     </footer>
     <!-- ./Footer Component -->

@@ -237,6 +237,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"vertical-",
+			".pull",
+			"\"></",
 			"red",
 			"></",
 			"sex",
@@ -361,10 +364,7 @@
 			"transf",
 			"progre",
 			"border: none;",
-			"@import \"../globals/allGlobals\";",
-			"butt",
-			"link",
-			"glg"
+			"@import \"../globals/allGlobals\";"
 		],
 		"highlight": true,
 		"in_selection": false,

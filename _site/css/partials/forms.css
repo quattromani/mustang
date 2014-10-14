@@ -25,7 +25,7 @@ select {
   margin-left: 0;
   outline: none;
   border: 0;
-  border-radius: 0;
+  border-radius: 3px;
   background-clip: padding-box;
   background: rgba(0, 0, 0, 0.2);
   font-weight: 300;
@@ -226,7 +226,7 @@ input.radio:empty ~ label:after {
   content: ' ';
   width: 2.5em;
   height: 1.5em;
-  background: #ef272d;
+  background: #a90009;
   border-radius: 100px;
   background-clip: padding-box;
   will-change: transition;

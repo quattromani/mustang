@@ -78,7 +78,7 @@ a {
   vertical-align: baseline;
   font-family: inherit;
   font-weight: 700;
-  color: #ef272d;
+  color: #a90009;
   text-decoration: none;
   cursor: pointer;
   will-change: transition;
@@ -95,7 +95,7 @@ a img {
   text-decoration: none;
 }
 a:hover {
-  color: #d31016;
+  color: #760006;
 }
 a.muted, .muted a {
   color: #e6e6e6;
@@ -307,7 +307,7 @@ pre {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 0;
+  border-radius: 3px;
   background-clip: padding-box;
   background-color: white;
   overflow: auto;
@@ -347,7 +347,7 @@ samp {
   font-family: "proximanova", Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  color: #ef272d;
+  color: #a90009;
   font-weight: 200;
 }
 

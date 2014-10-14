@@ -7,6 +7,9 @@
 
 section {
   @include row;
+  border-bottom: 1px solid $color-light-grey;
+
+
 }
 
 .callout {
@@ -21,4 +24,11 @@ section {
       border: 0;
     }
   }
+}
+
+.buy {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 9999;
 }

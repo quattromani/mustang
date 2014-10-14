@@ -81,11 +81,21 @@ $('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
 // Make main an element where note supported
 document.createElement('main');
 
+if($(window).width() > mediumBreakPoint){
+  $('.gallery').slick({
+    lazyLoad: 'ondemand',
+    slidesToShow: 2,
+    slidesToScroll: 1
+  });
+}
 
-$('.your-class').slick({
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
+if($(window).width() < mediumBreakPoint){
+  $('.gallery').slick({
+    lazyLoad: 'ondemand',
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+}
 
 /* ==========================================================================
     Modal -- Version: 1.9.0.0 - Updated: 4/28/2014

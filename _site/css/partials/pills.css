@@ -30,7 +30,7 @@ label + .pill,
   box-shadow: inset 0 0 0 1px #454545;
 }
 .pill-error {
-  background: #ef272d;
+  background: #a90009;
   color: #fff;
 }
 .pill-success {

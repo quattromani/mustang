@@ -21,7 +21,7 @@ $margin: 1em;
 $unit: 1em;
 
 //Border-Radius
-$border-radius: 0;
+$border-radius: 3px;
 
 // ---------------------------------------------------------------------- //
 
@@ -34,9 +34,9 @@ $color-dark-grey: darken($color-grey, 10%);
 $color-light-grey: lighten($color-grey, 10%);
 $color-light-light-grey: lighten($color-grey, 45%);
 
-$color-primary-red: #ef272d;
+$color-primary-red: #a90009;
 $color-primary-green: #3eb633;
-$color-primary-blue: #0099ed;
+$color-primary-blue: #415d69;
 $color-primary-orange: #f62;
 $color-primary-yellow: #ffda21;
 $color-primary-indigo: #583c9c;

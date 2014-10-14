@@ -41,9 +41,21 @@
 
   <header class="banner" role="banner">
   <div class="logo">
-    <h1>1966 Ford Mustang <i class="fa fa-angle-down"></i></h1>
+    <h1>FOR SALE <i class="fa fa-angle-down"></i></h1>
   </div>
 </header>
+
+  <nav class="nav-primary" role="navigation" >
+  <div class="container">
+    <ul>
+      <li class="left text-left">
+      <h4>
+        <a href="/" title="home">1966 Mustang</a>
+      </h4>
+      </li>
+    </ul>
+	</div>
+</nav>
 
 	    <!-- Begin Content Wrapper -->
     <div class="content">
@@ -72,7 +84,60 @@
 	    <!-- Footer Component -->
     <footer role="contentinfo">
       <div class="container">
-        <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> </span>
+        <header>
+          <h4>Make an Offer or Ask a Question</h4>
+        </header>
+
+        <hr>
+
+        <div id="contact">
+          <form action="http://forms.brace.io/max@maxquattromani.com" method="POST" autocomplete="on">
+  <fieldset>
+
+    <div class="row">
+      <div class="third">
+        <div class="formitem">
+          <label for="name" class="visually-hidden">Name</label>
+          <input type="text" id="name" name="name" placeholder="Name" autocomplete="name" tabindex="91" required>
+        </div>
+      </div>
+      <div class="third">
+        <div class="formitem">
+          <label for="email" class="visually-hidden">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" autocomplete="email" tabindex="92" required>
+        </div>
+      </div>
+      <div class="third">
+        <div class="formitem">
+          <label for="tel" class="visually-hidden">Phone</label>
+          <input type="tel" id="tel" name="tel" placeholder="Phone" autocomplete="tel" tabindex="93" required>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="formitem">
+        <label for="textarea" class="visually-hidden">Send me a message:</label>
+        <textarea id="textarea" name="message" placeholder="Message" tabindex="94"></textarea>
+      </div>
+    </div>
+
+    <!-- form housekeeping -->
+    <input type="hidden" name="_next" value="http://qoppa.co/thank-you/" />
+    <input type="text" name="_gotcha" style="display:none">
+
+  </fieldset>
+  <button class="btn btn-primary" type="submit" name="submit" value="Submit">Submit</button>
+
+  <button type="reset" name="reset" value="reset">
+    <span>Clear</span>
+  </button>
+</form>
+
+        </div>
+        <div class="row">
+          <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> </span>
+        </div>
       </div>
     </footer>
     <!-- ./Footer Component -->
@@ -81,11 +146,12 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 
+    <script src="/js/vendor/slick.min.js"></script>
+
     <script>
       function downloadJSAtOnload() {
         var element = document.createElement("script");
         element.src = "/js/build/production.min.js";
-        element.src = "/js/vendor/slick.min.js";
         document.body.appendChild(element);
       }
       if (window.addEventListener)

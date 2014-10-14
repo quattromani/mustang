@@ -7,7 +7,7 @@ img {
   height: auto;
   border: 0;
   font-style: italics;
-  color: #ef272d;
+  color: #a90009;
 }
 img:after {
   content: " (image)";
@@ -29,7 +29,7 @@ figcaption {
 }
 
 .image-rounded {
-  border-radius: 0;
+  border-radius: 3px;
   background-clip: padding-box;
 }
 
