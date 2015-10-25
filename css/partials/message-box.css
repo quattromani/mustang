@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   min-width: 3em;
-  font-family: "FontAwesome", Arial, Sans-Serif;
+  font-family: "fontawesome", Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   padding: .25em 1em;
@@ -59,7 +59,7 @@
 .info-box {
   border-left: .3em solid currentColor;
   background: #abc1cb;
-  color: #2d414a;
+  color: #2e414a;
 }
 
 .error-box {
